@@ -6,18 +6,7 @@ function SocialProof() {
 
   return (
     <ul className="flex items-center justify-center py-1 list-none">
-      <li className="p-4">
-        <FontAwesomeIcon className="w-10 text-gray-600 sm:w-12" icon={faStripe} />
-      </li>
-      <li className="p-4">
-        <FontAwesomeIcon className="w-10 text-gray-600 sm:w-12" icon={faLyft} />
-      </li>
-      <li className="p-4">
-        <FontAwesomeIcon className="w-10 text-gray-600 sm:w-12" icon={faSpotify} />
-      </li>
-      <li className="p-4">
-        <FontAwesomeIcon className="w-10 text-gray-600 sm:w-12" icon={faPiedPiper} />
-      </li>
+      <img className="w-1/6" src="/images/logo-built_white.png" />
     </ul>
   )
 }

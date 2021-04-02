@@ -16,7 +16,7 @@ function IndexPage() {
       <Hero />
 
       {/* social proof section */}
-      {/* <SocialProof /> */}
+      <SocialProof />
 
       {/* how it works section */}
       {/* <HowItWorks /> */}
