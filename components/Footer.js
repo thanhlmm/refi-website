@@ -41,10 +41,10 @@ function Footer() {
               <FooterLinkColumn
                 header=""
                 items={[
-                  // {
-                  //   label: 'Contact us',
-                  //   link: '/contact'
-                  // },
+                  {
+                    label: 'Blog',
+                    link: 'https://dev.to/thanhlm'
+                  },
                 ]}
               />
             </div>

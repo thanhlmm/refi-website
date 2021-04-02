@@ -22,10 +22,10 @@ function MobileNav({ toggleExpansion }) {
           route: `/faq`,
           title: `FAQ`,
         },
-        // {
-        //   route: `/contact`,
-        //   title: `Contact`,
-        // },
+        {
+          route: `https://dev.to/thanhlm`,
+          title: `Blog`,
+        },
         {
           route: `https://docs.refiapp.workers.dev/`,
           title: `Changelogs`,
