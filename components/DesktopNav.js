@@ -33,11 +33,11 @@ function DesktopNav() {
       ))}
       <Link
         passHref
-        href="/login"
+        href="https://refi-updater.vercel.app/"
       >
         <a
           className="block px-6 py-2 mt-4 font-semibold text-white no-underline transition duration-150 ease-in-out rounded md:inline-block md:mt-0 md:ml-8 bg-palette-primary hover:bg-palette-dark focus:outline-none">
-          Login
+          Download
         </a>
       </Link>
     </nav>

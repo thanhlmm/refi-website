@@ -41,9 +41,9 @@ function MobileNav({ toggleExpansion }) {
       ))}
       <button
         className="block w-5/6 px-6 py-2 mx-auto mt-4 text-lg font-semibold text-white no-underline transition duration-150 ease-in-out rounded bg-palette-primary hover:bg-palette-dark focus:outline-none"
-        onClick={() => navBtnClicked('/login')}
+        onClick={() => navBtnClicked('https://refi-updater.vercel.app/')}
       >
-        Login
+        Download
       </button>
     </nav>
   )
