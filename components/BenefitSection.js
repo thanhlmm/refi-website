@@ -18,10 +18,10 @@ function BenefitSection(props) {
             'Inline editing right on it'
           ]}
         />
-        <BenefitImage fade="left" imageSrc="/images/benefit-1.svg" imageWidth="w-5/6 md:w-9/12" />
+        <BenefitImage fade="left" imageSrc="/images/benefit-1.png" imageWidth="w-5/6 md:w-9/12" />
       </div>
       <div className="relative flex flex-col-reverse py-6 md:flex-row">
-        <BenefitImage fade="right" imageSrc="/images/benefit-2.svg" imageWidth="w-5/6 md:w-9/12" />
+        <BenefitImage fade="right" imageSrc="/images/benefit-2.png" imageWidth="w-5/6 md:w-9/12" />
         <BenefitDescription
           fade="left"
           heading="Create and edit document like in your home"
@@ -43,10 +43,10 @@ function BenefitSection(props) {
             'Boost your productive'
           ]}
         />
-        <BenefitImage fade="left" imageSrc="/images/benefit-3.svg" imageWidth="w-5/6 md:w-9/12" />
+        <BenefitImage fade="left" imageSrc="/images/benefit-3.png" imageWidth="w-5/6 md:w-9/12" />
       </div>
       <div className="relative flex flex-col-reverse py-6 md:flex-row">
-        <BenefitImage fade="right" imageSrc="/images/benefit-2.svg" imageWidth="w-5/6 md:w-9/12" />
+        <BenefitImage fade="right" imageSrc="/images/benefit-4.png" imageWidth="w-5/6 md:w-9/12" />
         <BenefitDescription
           fade="left"
           heading="Confidence edit your data"

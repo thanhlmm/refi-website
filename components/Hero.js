@@ -17,7 +17,7 @@ function Hero() {
           </div>
         </div>
         <div className="mx-auto mt-6 mb-16 lg:m-0 lg:w-1/2" data-aos="fade-up">
-          <img height={500} width={500} className="z-20 object-contain w-full mx-auto" src="/images/main-img.svg" alt="main-img" />
+          <img height={500} width={500} className="z-20 object-contain w-full mx-auto shadow-lg" src="/images/main.png" alt="main-img" />
         </div>
       </div>
       <div className="relative">

@@ -9,9 +9,9 @@ module.exports = {
       colors: {
         palette: {
           lighter: '#EFF6FF',
-          light: '#DBEAFE',
-          primary: '#2563EB',
-          dark: '#1D4ED8',
+          light: '#ffd761',
+          primary: '#FFA000',
+          dark: '#F57C00',
         },
       },
     },

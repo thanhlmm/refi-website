@@ -10,9 +10,9 @@ function Nav() {
     <header>
       <div className="flex flex-wrap items-center justify-between max-w-6xl mx-auto md:p-6">
         <Link href="/" passHref>
-          <a className="focus:outline-none p-4 cursor-pointer">
+          <a className="p-4 cursor-pointer focus:outline-none">
             <h1 className="flex items-center no-underline">
-              <img height="32" width="32" alt="logo" className="h-8 w-8 object-contain" src="/icon.svg" />
+              <img height="32" width="32" alt="logo" className="object-contain w-8 h-8 p-0.5 mr-2" src="/icon.png" />
               <span className="text-xl font-bold tracking-tight">
                 {process.env.siteTitle}
               </span>
@@ -25,12 +25,10 @@ function Nav() {
           <button
             onClick={() => toggleExpansion(!isExpanded)}
             type="button"
-            className="bg-white inline-flex items-center justify-center px-6 py-4 rounded-md
-              text-gray-600 hover:text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-white
-              transition duration-150 ease-in-out"
+            className="inline-flex items-center justify-center px-6 py-4 text-gray-600 transition duration-150 ease-in-out bg-white rounded-md hover:text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-white"
             aria-label="Close menu"
           >
-            <svg className="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+            <svg className="w-6 h-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
             </svg>
           </button>
@@ -38,14 +36,12 @@ function Nav() {
           <button
             onClick={() => toggleExpansion(!isExpanded)}
             type="button"
-            className="bg-white md:hidden inline-flex items-center justify-center px-6 py-4 rounded-md 
-              text-gray-600 hover:text-gray-700 hover:bg-gray-100 focus:outline-none 
-              transition duration-150 ease-in-out"
+            className="inline-flex items-center justify-center px-6 py-4 text-gray-600 transition duration-150 ease-in-out bg-white rounded-md md:hidden hover:text-gray-700 hover:bg-gray-100 focus:outline-none"
             id="main-menu"
             aria-label="Main menu"
             aria-haspopup="true"
           >
-            <svg className="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+            <svg className="w-6 h-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           </button>
