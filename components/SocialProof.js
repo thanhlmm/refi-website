@@ -5,18 +5,18 @@ import { faStripe, faLyft, faSpotify, faPiedPiper } from '@fortawesome/free-bran
 function SocialProof() {
 
   return (
-    <ul className="flex justify-center items-center list-none py-1">
+    <ul className="flex items-center justify-center py-1 list-none">
       <li className="p-4">
-        <FontAwesomeIcon className="w-10 sm:w-12 text-gray-600" icon={faStripe} />
+        <FontAwesomeIcon className="w-10 text-gray-600 sm:w-12" icon={faStripe} />
       </li>
       <li className="p-4">
-        <FontAwesomeIcon className="w-10 sm:w-12 text-gray-600" icon={faLyft} />
+        <FontAwesomeIcon className="w-10 text-gray-600 sm:w-12" icon={faLyft} />
       </li>
       <li className="p-4">
-        <FontAwesomeIcon className="w-10 sm:w-12 text-gray-600" icon={faSpotify} />
+        <FontAwesomeIcon className="w-10 text-gray-600 sm:w-12" icon={faSpotify} />
       </li>
       <li className="p-4">
-        <FontAwesomeIcon className="w-10 sm:w-12 text-gray-600" icon={faPiedPiper} />
+        <FontAwesomeIcon className="w-10 text-gray-600 sm:w-12" icon={faPiedPiper} />
       </li>
     </ul>
   )

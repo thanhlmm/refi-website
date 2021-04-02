@@ -17,11 +17,11 @@ function Features() {
           <ul className="grid sm:grid-cols-2 md:grid-cols-3 md:gap-6">
             {[
               'Privacy',
-              'Feature # 2',
-              'Feature # 3',
-              'Feature # 4',
-              'Feature # 5',
-              'Feature # 6'
+              'Export as JSON, CSV',
+              'Import from JSON, CSV',
+              'Querying/Sorting',
+              'Detect Field Type',
+              'Search documents'
             ].map((item, index) => (
               <li key={index}>
                 <Feature

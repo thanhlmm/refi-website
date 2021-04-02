@@ -25,7 +25,7 @@ function IndexPage() {
       <BenefitSection />
 
       {/* features section */}
-      {/* <Features /> */}
+      <Features />
 
       {/* pricing section */}
       {/* <PricingSection
