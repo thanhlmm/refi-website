@@ -9,7 +9,23 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head />
+        <Head>
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-W3YC5Q7R2Y"
+          />
+
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', 'G-W3YC5Q7R2Y');
+              `,
+            }}
+          />
+        </Head>
         <body>
           <Main />
           <NextScript />
