@@ -25,10 +25,6 @@ function Footer() {
                 header="Product"
                 items={[
                   {
-                    label: 'Start here',
-                    link: '/'
-                  },
-                  {
                     label: 'Changelogs',
                     link: 'https://docs.refiapp.workers.dev/'
                   },
