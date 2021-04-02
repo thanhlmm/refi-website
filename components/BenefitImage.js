@@ -4,8 +4,8 @@ function BenefitImage({ imageSrc, imageWidth, fade }) {
   const dataAOS = `fade-${fade}`
 
   return (
-    <div className="w-full md:w-1/2 text-center" data-aos={dataAOS}>
-      <img height={600} width={300} className={imageClass} src={imageSrc} alt="benefit-preview" />
+    <div className="w-full text-center md:w-1/2" data-aos={dataAOS}>
+      <img height={500} width={400} className={imageClass} src={imageSrc} alt="benefit-preview" />
     </div>
   )
 }

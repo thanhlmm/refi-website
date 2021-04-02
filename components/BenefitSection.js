@@ -18,7 +18,7 @@ function BenefitSection(props) {
             'Inline editing right on it'
           ]}
         />
-        <BenefitImage fade="left" imageSrc="/images/benefit-1.png" imageWidth="w-5/6 md:w-9/12" />
+        <BenefitImage fade="left" imageSrc="/images/benefit-1.png" imageWidth="w-5/6 md:w-12/12" />
       </div>
       <div className="relative flex flex-col-reverse py-6 md:flex-row">
         <BenefitImage fade="right" imageSrc="/images/benefit-2.png" imageWidth="w-5/6 md:w-9/12" />
