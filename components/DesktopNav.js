@@ -15,8 +15,8 @@ function DesktopNav() {
         //   title: `Contact`,
         // },
         {
-          route: `/pricing`,
-          title: `Pricing`,
+          route: `https://docs.refiapp.workers.dev/`,
+          title: `Changelogs`,
         },
       ].map((link) => (
         <Link

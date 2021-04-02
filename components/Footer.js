@@ -29,8 +29,8 @@ function Footer() {
                     link: '/'
                   },
                   {
-                    label: 'Pricing',
-                    link: '/pricing'
+                    label: 'Changelogs',
+                    link: 'https://docs.refiapp.workers.dev/'
                   },
                   {
                     label: 'FAQ',
