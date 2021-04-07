@@ -8,7 +8,7 @@ module.exports = withPWA({
   },
   env: {
     siteTitle: 'Refi App',
-    siteDescription: 'A tool to make developer less painful when interacting with Firestore DB.',
+    siteDescription: 'A tool to make developers less painful when interacting with Firestore DB.',
     siteKeywords: 'Refi App, firebase, firestore, GUI Tool, DB management',
     siteUrl: 'https://refiapp.vercel.app',
     siteImagePreviewUrl: '/images/blue.png',
