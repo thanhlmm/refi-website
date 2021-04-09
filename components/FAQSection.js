@@ -17,19 +17,19 @@ function FAQSection({ bgColor, header }) {
           <hr className="border-b border-gray-100" />
           <Question
             question="Is my data safe?"
-            answer="Definitely. We never send your data any where, your data is your and always your"
+            answer="Definitely. We never send your data anywhere. Your data is yours and always yours"
           />
           <Question
             question="Is this free"
-            answer="We currently offer it as free. However in a long-term, we will charge you small fee for some advantage features"
+            answer="We currently offer it as free. However in a long-term, we will charge you small fee for some advanced features"
           />
           <Question
             question="Why we build this tool?"
             answer={<>When I first working with FireStore I had to face many issues<br /><br />
 
             - How can I filter documents by some criteria?<br />
-            - How can I insert a new document from a JSON, in fact, I have to write a script to insert some new document<br />
-            - I have to use GC Storage to backup the data, which is I need to spend more time learning about it. WTF 🤬 why not just export and import by a JSON file?<br />
+            - How can I insert a new document from a JSON, in fact,  I have to write a script to insert some new documents<br />
+            - I have to use GC Storage to backup the data, which I need to spend more time learning about. WTF 🤬 why not just export and import by a JSON file?<br />
             - If I edit the same field of many documents, I need to go through documents and documents to edit.</>}
           />
         </div>

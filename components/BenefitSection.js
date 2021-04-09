@@ -6,7 +6,7 @@ function BenefitSection(props) {
 
   return (
     <div className="px-2 py-4 mx-auto md:px-4 lg:px-8 lg:mt-4 bg-palette-lighter">
-      <SectionHeader text="The ultimate tool for interactive with Firestore" />
+      <SectionHeader text="The ultimate tool for interacting with Firestore" />
       <div className="relative flex flex-col justify-center py-6 md:flex-row lg:py-12">
         <BenefitDescription
           heading="Change lots of documents at the same time"
@@ -24,8 +24,8 @@ function BenefitSection(props) {
         <BenefitImage fade="right" imageSrc="/images/benefit-2.png" imageWidth="w-5/6 md:w-9/12" />
         <BenefitDescription
           fade="left"
-          heading="Create and edit document like in your home"
-          description="No more clicking on complicated things to get a document data. We integrated Monaco aka VS Code editor."
+          heading="Create and edit document like in your daily IDE"
+          description="No more clicking on complicated things to get a document's data. We integrated Monaco aka VS Code editor."
           bulletpoints={[
             'View/Edit your document as JSON',
             'All VS Code features',
@@ -35,12 +35,12 @@ function BenefitSection(props) {
       <div className="flex flex-col py-6 md:flex-row lg:py-12">
         <BenefitDescription
           fade="right"
-          heading="Build for Developer"
-          description="With hotkeys, you can do anything without leaving your keyboard. We are developer too!"
+          heading="Built for Developers"
+          description="With hotkeys, you can do anything without leaving your keyboard. We are developers too!"
           bulletpoints={[
             <>Start anything with <code>Cmd + Shift + P</code> or <code>Cmd + /</code></>,
-            'Familiars hotkey inspired by VS Code',
-            'Boost your productive'
+            'Familiar hotkeys inspired by VS Code',
+            'Boost your productivity'
           ]}
         />
         <BenefitImage fade="left" imageSrc="/images/benefit-3.png" imageWidth="w-5/6 md:w-9/12" />
@@ -49,8 +49,8 @@ function BenefitSection(props) {
         <BenefitImage fade="right" imageSrc="/images/benefit-4.png" imageWidth="w-5/6 md:w-9/12" />
         <BenefitDescription
           fade="left"
-          heading="Confidence edit your data"
-          description="With preview changes, feel free to edit anything without making production crash"
+          heading="Confidently edit your data"
+          description="With change previews, feel free to edit anything without making production crash"
           bulletpoints={[
             'Preview changes',
             'Revert all or just a piece of change',

@@ -6,7 +6,7 @@ function HowItWorks() {
   return (
     <div className="px-4 sm:py-2">
       <div className="w-full mx-auto text-center lg:w-2/3">
-        <SectionHeader text="The ultimate tool for interactive with Firestore" />
+        <SectionHeader text="The ultimate tool for interacting with Firestore" />
         <p className="py-2 text-lg text-gray-700 font-body">
           What's the problem? How will you solve it? What are the results?
         </p>
