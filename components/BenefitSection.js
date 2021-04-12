@@ -28,7 +28,7 @@ function BenefitSection(props) {
           description="No more clicking on complicated things to get a document's data. We integrated Monaco aka VS Code editor."
           bulletpoints={[
             'View/Edit your document as JSON',
-            'All VS Code features',
+            'All VS Code features & hotkeys',
           ]}
         />
       </div>
