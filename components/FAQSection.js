@@ -20,7 +20,7 @@ function FAQSection({ bgColor, header }) {
             answer="Definitely. We never send your data anywhere. Your data is yours and always yours"
           />
           <Question
-            question="Is this free"
+            question="Is this free?"
             answer="We currently offer it as free. However in a long-term, we will charge you small fee for some advanced features"
           />
           <Question
