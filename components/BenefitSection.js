@@ -38,7 +38,7 @@ function BenefitSection(props) {
           heading="Built for Developers"
           description="With hotkeys, you can do anything without leaving your keyboard. We are developers too!"
           bulletpoints={[
-            <>Start anything with <code>Cmd + Shift + P</code> or <code>Cmd + /</code></>,
+            <>Start anything with <code className="text-red-700">Cmd + Shift + P</code> or <code className="text-red-700">Cmd + /</code></>,
             'Familiar hotkeys inspired by VS Code',
             'Boost your productivity'
           ]}
