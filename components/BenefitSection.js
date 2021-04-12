@@ -9,12 +9,12 @@ function BenefitSection(props) {
       <SectionHeader text="The ultimate tool for interacting with Firestore" />
       <div className="relative flex flex-col justify-center py-6 md:flex-row lg:py-12">
         <BenefitDescription
-          heading="Change lots of documents at the same time"
+          heading="Table view"
           fade="right"
-          description="With table view, you can easily change lots of document at the same time."
+          description="Have a birds-eye view on your data and change lots of document at once."
           bulletpoints={[
             'Customizable fields to display',
-            'Get an overview on your collection',
+            'Filter & sort the result',
             'Inline editing right on it'
           ]}
         />
@@ -24,7 +24,7 @@ function BenefitSection(props) {
         <BenefitImage fade="right" imageSrc="/images/benefit-2.png" imageWidth="w-5/6 md:w-9/12" />
         <BenefitDescription
           fade="left"
-          heading="Create and edit document like in your daily IDE"
+          heading="Use VSCode to create and edit document"
           description="No more clicking on complicated things to get a document's data. We integrated Monaco aka VS Code editor."
           bulletpoints={[
             'View/Edit your document as JSON',
@@ -49,8 +49,8 @@ function BenefitSection(props) {
         <BenefitImage fade="right" imageSrc="/images/benefit-4.png" imageWidth="w-5/6 md:w-9/12" />
         <BenefitDescription
           fade="left"
-          heading="Confidently edit your data"
-          description="With change previews, feel free to edit anything without making production crash"
+          heading="Preview changes before commit"
+          description="You're now freely edit anything without making production crash"
           bulletpoints={[
             'Preview changes',
             'Revert all or just a piece of change',
