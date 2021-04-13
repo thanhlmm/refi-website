@@ -7,7 +7,11 @@ function DesktopNav() {
     >
       {[
         {
-          route: `/faq`,
+          route: `#pricing`,
+          title: `Pricing`,
+        },
+        {
+          route: `#faq`,
           title: `FAQ`,
         },
         {

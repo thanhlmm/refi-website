@@ -5,7 +5,7 @@ import SectionHeader from '@/components/SectionHeader'
 function FAQSection({ bgColor, header }) {
 
   return (
-    <div className={bgColor}>
+    <div className={bgColor} id="faq">
       <div className="w-full max-w-4xl px-4 pt-2 pb-2 mx-auto sm:pt-4">
         {
           header === 'page' ?

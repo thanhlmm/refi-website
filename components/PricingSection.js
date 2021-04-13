@@ -7,7 +7,7 @@ function PricingSection({ header }) {
   const router = useRouter()
 
   return (
-    <div className="w-full max-w-6xl px-2 pt-2 pb-6 mx-auto mb-4 sm:px-0 sm:pb-8 lg:pb-10">
+    <div className="w-full max-w-6xl px-2 pt-2 pb-6 mx-auto mb-4 sm:px-0 sm:pb-8 lg:pb-10" id="pricing">
       {
         header === 'page' ?
           <PageHeader text="Pricing" />

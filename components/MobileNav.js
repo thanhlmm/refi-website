@@ -14,12 +14,12 @@ function MobileNav({ toggleExpansion }) {
     >
       <div className="border-b border-gray-300"></div>
       {[
-        // {
-        //   route: `/about`,
-        //   title: `About`,
-        // },
         {
-          route: `/faq`,
+          route: `#pricing`,
+          title: `Pricing`,
+        },
+        {
+          route: `#faq`,
           title: `FAQ`,
         },
         {
