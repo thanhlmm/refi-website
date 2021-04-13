@@ -28,9 +28,9 @@ function IndexPage() {
       <Features />
 
       {/* pricing section */}
-      {/* <PricingSection
+      <PricingSection
         header="section"
-      /> */}
+      />
 
       {/* faq section */}
       <FAQSection
