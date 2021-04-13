@@ -6,7 +6,7 @@ function SocialProof() {
 
   return (
     <ul className="flex items-center justify-center py-1 list-none">
-      <img className="w-1/6" src="/images/logo-built_white.png" />
+      <img className="w-1/12" src="/images/logo-built_white.png" />
     </ul>
   )
 }
