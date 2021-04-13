@@ -7,7 +7,7 @@ module.exports = withPWA({
     disable: process.env.NODE_ENV === 'development',
   },
   env: {
-    siteTitle: 'Refi App - A tool to make interacting with Firestore less painful',
+    siteTitle: 'Refi App',
     siteDescription: "A tool to make interacting with Firestore less painful. It's a Firestore GUI",
     siteKeywords: 'Refi App, firebase, firestore, GUI Tool, DB management',
     siteUrl: 'https://refiapp.io',
