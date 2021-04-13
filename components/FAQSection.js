@@ -25,7 +25,7 @@ function FAQSection({ bgColor, header }) {
           />
           <Question
             question="Why we build this tool?"
-            answer={<>When I first working with FireStore I had to face many issues<br /><br />
+            answer={<>When I first working with FireStore I faced many issues<br /><br />
 
             - How can I filter documents by some criteria?<br />
             - How can I insert a new document from a JSON, in fact,  I have to write a script to insert some new documents<br />
