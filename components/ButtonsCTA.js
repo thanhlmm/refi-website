@@ -8,6 +8,7 @@ function ButtonCTA() {
       <button
         className="w-40 px-4 py-2 text-xl font-semibold text-white transition duration-150 ease-in-out border border-transparent rounded focus:outline-none md:px-6 bg-palette-primary hover:bg-palette-dark"
         onClick={() => router.push('https://refi-updater.vercel.app/')}
+        id="download-app"
       >
         Download
       </button>
