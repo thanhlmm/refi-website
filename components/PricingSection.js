@@ -39,7 +39,7 @@ function PricingSection({ header }) {
             description="We're currently offer early users for free. Join the waiting list and we will send you a discount after all features is launched."
             bullets={[
               'All basic features',
-              'Multiples tabs',
+              'Multiple tabs',
               'Dark mode (Coming soon)',
               'Your idea'
             ]}
@@ -56,7 +56,7 @@ function PricingSection({ header }) {
             description="Get 2 licenses for you and your partner."
             bullets={[
               'All basic features',
-              'Multiples tabs',
+              'Multiple tabs',
               'Dark mode (Coming soon)',
               'Your idea'
             ]}
