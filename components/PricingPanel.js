@@ -4,7 +4,7 @@ import { faCheckCircle } from '@fortawesome/free-solid-svg-icons'
 function PricingPanel({ plan, originalPrice, price, description, bullets, cta, ctaAction, isLarger }) {
 
   return (
-    <div className={`${isLarger ? "w-80" : "w-64"} w-full max-w-sm mx-auto mt-12 border border-gray-100 rounded shadow h-120 md:w-1/3`} data-aos="fade-up">
+    <div className={`${isLarger ? "w-80" : "w-64"} w-full max-w-sm mx-auto mt-12 border border-gray-100 rounded shadow h-120 md:w-1/3`}>
       <div className="px-3 py-4">
         <h2 className="text-lg font-semibold lg:text-xl">{plan}</h2>
         {
