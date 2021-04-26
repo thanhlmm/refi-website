@@ -41,6 +41,7 @@ function PricingSection({ header }) {
               'All basic features',
               'Multiple tabs',
               'Dark mode (Coming soon)',
+              'Unlimited devices',
               'Your idea'
             ]}
             cta={
@@ -58,6 +59,7 @@ function PricingSection({ header }) {
               'All basic features',
               'Multiple tabs',
               'Dark mode (Coming soon)',
+              'Unlimited devices',
               'Your idea'
             ]}
             cta={
