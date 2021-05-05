@@ -6,7 +6,7 @@ function BenefitSection(props) {
 
   return (
     <div className="px-2 py-4 mx-auto md:px-4 lg:px-8 lg:mt-4 bg-palette-lighter">
-      <SectionHeader text="The ultimate tool for interacting with Firestore" />
+      <SectionHeader text="Interacting with Firestore made easy" />
       <div className="relative flex flex-col justify-center py-6 md:flex-row lg:py-12">
         <BenefitDescription
           heading="Table view"
