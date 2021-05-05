@@ -4,8 +4,8 @@ function Hero() {
 
   return (
     <div className="bg-gradient-to-t from-palette-light">
-      <div className="flex flex-col items-center max-w-6xl px-6 pb-4 mx-auto mt-10 lg:flex-row lg:justify-around md:pb-6 lg:pb-8 lg:px-20 lg:pb-16">
-        <div className="w-4/5 py-4 mx-auto text-center lg:text-left sm:w-2/3 lg:w-1/2" data-aos="fade-in">
+      <div className="flex flex-col items-center max-w-6xl px-6 pb-4 mx-auto mt-10 lg:flex-row lg:justify-around md:pb-6 lg:pb-8 lg:px-6 lg:pb-16">
+        <div className="w-4/5 py-4 mx-auto text-center lg:text-left sm:w-2/3 lg:w-2/5 lg:pr-6" data-aos="fade-in">
           <h2 className="text-3xl font-extrabold leading-tight text-gray-900 xs:text-4xl sm:text-5xl md:text-6xl">
             Refi App
         </h2>
@@ -16,8 +16,8 @@ function Hero() {
             <ButtonsCTA />
           </div>
         </div>
-        <div className="mx-auto mt-6 mb-16 lg:m-0 lg:w-1/2" data-aos="fade-up">
-          <img height={500} width={500} className="z-20 object-contain w-full mx-auto shadow-lg" src="/images/main.png" alt="main-img" />
+        <div className="mx-auto mt-6 mb-16 lg:m-0 lg:w-3/5" data-aos="fade-up">
+          <img className="z-20 object-contain w-full mx-auto rounded shadow-lg" src="/images/main.gif" alt="main-img" />
         </div>
       </div>
       <div className="relative">
