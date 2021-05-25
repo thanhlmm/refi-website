@@ -27,6 +27,7 @@ function PricingSection({ header }) {
               'JSON editor',
               'Preview changes',
               'Import & export',
+              'Unlimited projects',
               'Privacy'
             ]}
             cta="Download"
@@ -41,11 +42,13 @@ function PricingSection({ header }) {
               'All basic features',
               'Multiple tabs',
               'Dark mode (Coming soon)',
+              'Unlimited projects',
               'Unlimited devices',
               'Your idea'
             ]}
             cta={
-              <a data-formkit-toggle="e29dbf4a79" href="https://awesome-painter-967.ck.page/e29dbf4a79">Join the line</a>
+              <a href="javascript:void(0)" data-cb-type="checkout" data-cb-plan-id="productive">Subscribe</a>
+              // <a data-formkit-toggle="e29dbf4a79" href="https://awesome-painter-967.ck.page/e29dbf4a79">Join the line</a>
             }
             ctaAction={(e) => { e.preventDefault() }}
             isLarger
@@ -59,11 +62,13 @@ function PricingSection({ header }) {
               'All basic features',
               'Multiple tabs',
               'Dark mode (Coming soon)',
+              'Unlimited projects',
               'Unlimited devices',
               'Your idea'
             ]}
             cta={
-              <a data-formkit-toggle="e29dbf4a79" href="https://awesome-painter-967.ck.page/e29dbf4a79">Join the line</a>
+              <a href="javascript:void(0)" data-cb-type="portal">Subscribe</a>
+              // <a data-formkit-toggle="e29dbf4a79" href="https://awesome-painter-967.ck.page/e29dbf4a79">Join the line</a>
             }
             ctaAction={(e) => { e.preventDefault() }}
           />
