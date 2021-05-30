@@ -42,7 +42,7 @@ function SEO({ title }) {
         sizes="32x32"
         purpose="any maskable"
       />
-      <link rel="apple-touch-icon" href="/apple-icon.png"></link>
+      <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png"></link>
       <meta name="theme-color" content="#EF4444" />
     </Head>
   )
