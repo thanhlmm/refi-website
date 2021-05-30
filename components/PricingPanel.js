@@ -17,7 +17,7 @@ function PricingPanel({ plan, originalPrice, price, description, bullets, cta, c
       </div>
       <div className="w-full border border-gray-100"></div>
       <h2 className="px-3 py-2 text-lg font-semibold">What's included?</h2>
-      <div className="h-48 px-3">
+      <div className="px-3">
         {bullets.map((bullet, index) =>
           <div key={index} className="py-2">
             <FontAwesomeIcon className="inline-flex w-4 mr-2 text-green-500" icon={faCheckCircle} />
