@@ -9,13 +9,14 @@ function BenefitSection(props) {
       <SectionHeader text="Interacting with Firestore made easy" />
       <div className="relative flex flex-col justify-center py-6 md:flex-row lg:py-12">
         <BenefitDescription
-          heading="Table view"
+          heading="Table view, update in realtime"
           fade="right"
           description="Have a birds-eye view on your data and change lots of document at once."
           bulletpoints={[
             'Customizable fields to display',
             'Filter & sort the result',
             'Inline editing right on it'
+            'All changes is updated in realtime'
           ]}
         />
         <BenefitImage fade="left" imageSrc="/images/benefit-1.png" imageWidth="w-5/6 md:w-12/12" />
