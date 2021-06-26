@@ -14,9 +14,10 @@ function Features() {
         </div>
 
         <div className="mt-10">
-          <ul className="grid sm:grid-cols-2 md:grid-cols-3 md:gap-6">
+          <ul className="grid sm:grid-cols-2 md:grid-cols-4 md:gap-6">
             {[
               'Privacy',
+              'Realtime update',
               'Export as JSON, CSV',
               'Import from JSON, CSV',
               'Querying/Sorting',
