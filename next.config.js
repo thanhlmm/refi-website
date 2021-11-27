@@ -1,11 +1,5 @@
-const withPWA = require('next-pwa')
-
-module.exports = withPWA({
+module.exports = {
   future: { webpack5: true },
-  pwa: {
-    dest: 'public',
-    disable: process.env.NODE_ENV === 'development',
-  },
   env: {
     siteTitle: 'Refi App',
     siteDescription: "A tool to make interacting with Firestore less painful. It's a Firestore GUI",
@@ -14,4 +8,4 @@ module.exports = withPWA({
     siteImagePreviewUrl: 'images/hero.jpeg',
     twitterHandle: '@cuthanh15'
   }
-})
+}
