@@ -13,7 +13,7 @@ function Footer() {
             </h2>
             <p className="mt-2 mb-2 text-lg text-white">
               We look forward to having you be part of our community.
-              </p>
+            </p>
             <div className="mt-6">
               <SocialIcon icon={faTwitter} url="https://twitter.com/cuthanh15" />
               <SocialIcon icon={faGithub} url="https://github.com/thanhlmm/refi-app" />
@@ -26,7 +26,7 @@ function Footer() {
                 items={[
                   {
                     label: 'Changelogs',
-                    link: 'https://docs.refiapp.workers.dev/'
+                    link: 'https://github.com/thanhlmm/refi-app/releases'
                   },
                   {
                     label: 'FAQ',
@@ -39,7 +39,7 @@ function Footer() {
                 items={[
                   {
                     label: 'Blog',
-                    link: 'https://dev.to/thanhlm'
+                    link: 'https://thanhle.blog'
                   },
                 ]}
               />

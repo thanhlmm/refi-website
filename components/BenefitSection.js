@@ -15,7 +15,7 @@ function BenefitSection(props) {
           bulletpoints={[
             'Customizable fields to display',
             'Filter & sort the result',
-            'Inline editing right on it'
+            'Inline editing right on it',
             'All changes is updated in realtime'
           ]}
         />

@@ -8,12 +8,15 @@ function Hero() {
         <div className="w-4/5 py-4 mx-auto text-center lg:text-left sm:w-2/3 lg:w-2/5 lg:pr-6" data-aos="fade-in">
           <h2 className="text-3xl font-extrabold leading-tight text-gray-900 xs:text-4xl sm:text-5xl md:text-6xl">
             Refi App
-        </h2>
+          </h2>
           <p className="mt-6 text-base text-gray-700 font-body sm:text-lg md:text-xl">
-            A GUI tool to make interacting with Firestore less painful
-        </p>
-          <div className="flex justify-center my-5 sm:my-8 lg:justify-start">
+            A open-source GUI tool to make interacting with Firestore less painful
+          </p>
+          <div className="flex items-center justify-center my-5 space-x-4 sm:my-8 lg:justify-start">
             <ButtonsCTA />
+            <a href="https://github.com/thanhlmm/refi-app" target="_blank">
+              <img src="/gh.svg" className="w-8 h-8 opacity-80" />
+            </a>
           </div>
         </div>
         <div className="mx-auto mt-6 mb-16 lg:m-0 lg:w-3/5" data-aos="fade-up">

@@ -15,11 +15,11 @@ function DesktopNav() {
           title: `FAQ`,
         },
         {
-          route: `https://dev.to/thanhlm`,
+          route: `https://thanhle.blog`,
           title: `Blog`,
         },
         {
-          route: `https://docs.refiapp.workers.dev/`,
+          route: `https://github.com/thanhlmm/refi-app/releases`,
           title: `Changelogs`,
         },
       ].map((link) => (
