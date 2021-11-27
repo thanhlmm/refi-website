@@ -14,7 +14,7 @@
     "@fortawesome/react-fontawesome": "^0.1.14",
     "aos": "^2.3.4",
     "autoprefixer": "^10.0.4",
-    "next": "latest",
+    "next": "12",
     "next-pwa": "^5.0.5",
     "postcss": "^8.1.10",
     "react": "^17.0.1",
