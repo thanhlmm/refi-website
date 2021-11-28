@@ -10,7 +10,7 @@ function Hero() {
             Refi App
           </h2>
           <p className="mt-6 text-base text-gray-700 font-body sm:text-lg md:text-xl">
-            A open-source GUI tool to make interacting with Firestore less painful
+            An open-source GUI tool to make interacting with Firestore less painful
           </p>
           <div className="flex items-center justify-center my-5 space-x-4 sm:my-8 lg:justify-start">
             <ButtonsCTA />
