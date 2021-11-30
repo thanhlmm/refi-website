@@ -1,5 +1,5 @@
 import ButtonsCTA from './ButtonsCTA'
-import GitHubButton from 'react-github-btn'
+// import GitHubButton from 'react-github-btn'
 
 function Hero() {
 
@@ -18,7 +18,8 @@ function Hero() {
             <a href="https://github.com/thanhlmm/refi-app" target="_blank">
               <img src="/gh.svg" className="w-8 h-8 opacity-80" />
             </a>
-            <GitHubButton href="https://github.com/thanhlmm/refi-app" data-icon="octicon-star" data-show-count="true" aria-label="Star thanhlmm/refi-app on GitHub">Star</GitHubButton>
+            <iframe src="https://ghbtns.com/github-btn.html?user=thanhlmm&repo=refi-app&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+            {/* <GitHubButton href="https://github.com/thanhlmm/refi-app" data-icon="octicon-star" data-show-count="true" aria-label="Star thanhlmm/refi-app on GitHub">Star</GitHubButton> */}
           </div>
         </div>
         <div className="mx-auto mt-6 mb-16 lg:m-0 lg:w-3/5" data-aos="fade-up">
