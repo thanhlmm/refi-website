@@ -5,29 +5,29 @@ function TestimonialSection() {
 
   return (
     <div className="pt-4">
-      <div className="w-full px-2 max-w-5xl mx-auto">        
+      <div className="w-full max-w-5xl px-2 mx-auto">
         <SectionHeader text="Here's what our customers are saying" />
-        <p className="mt-6 text-center sm:text-left text-base font-body text-gray-700 sm:text-lg px-2">
+        {/* <p className="px-2 mt-6 text-base text-center text-gray-700 sm:text-left font-body sm:text-lg">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-        <div className="pt-16 flex flex-col items-center sm:flex-row sm:justify-around">
+        </p> */}
+        <div className="flex flex-col items-center pt-16 space-x-4 sm:flex-row sm:justify-around">
           <Testimonial
-            name="Jane Doe"
-            jobTitle="CEO, SpaceX"
-            image="/images/testimonial-image-1.jpeg"
-            review="This is an amazing product! I am blown away by the number of features and the customer service. Highly recommend."
+            name="Hieu Nguyen"
+            jobTitle="Developer"
+            image="https://ph-avatars.imgix.net/3002026/original?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=170&h=170&fit=crop&dpr=2"
+            review="What a great tool and generous of you for making it open-source. I love using Firebase and was a bit confusing when starting to use it."
           />
           <Testimonial
-            name="John Doe"
-            jobTitle="CTO, Tesla"
-            image="/images/testimonial-image-2.jpeg"
-            review="Great product. Great team. I have never been more excited to recommend a product to my friends."
+            name="Dave Jeffery"
+            jobTitle="Founder @ ToDesktop"
+            image="https://ph-avatars.imgix.net/253580/original?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=170&h=170&fit=crop&dpr=2"
+            review="I love this. It works great. The official Firestore UI is slow and difficult to navigate. This fixes all those issues. 🙏"
           />
           <Testimonial
-            name="Rita Doe"
-            jobTitle="COO, SolarCity"
-            image="/images/testimonial-image-3.jpeg"
-            review="What can I say? You absolutely have to try this thing otherwise you're going to miss out. I promise you won't regret it."
+            name="GamingMaster29"
+            jobTitle="Reddit"
+            image="https://ph-avatars.imgix.net/3892565/f60906b7-0fd1-4e2b-b691-38e401695466?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=170&h=170&fit=crop&dpr=2"
+            review="THIS IS IT. THIS IS WHAT I WAITED FOR SINCE DEVELOPING WITH FIREBASE. Thank you very much!!!"
           />
         </div>
       </div>

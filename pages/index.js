@@ -41,7 +41,7 @@ function IndexPage() {
 
 
       {/* testimonials section */}
-      {/* <TestimonialSection /> */}
+      <TestimonialSection />
 
       {/* call to action section */}
       <CTA />
