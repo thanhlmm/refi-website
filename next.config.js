@@ -1,8 +1,8 @@
 module.exports = {
   future: { webpack5: true },
   env: {
-    siteTitle: 'Refi App',
-    siteDescription: "A tool to make interacting with Firestore less painful. It's a Firestore GUI",
+    siteTitle: 'Refi App - An open-source GUI tool to make interacting with Firestore less painful',
+    siteDescription: "A tool to make interacting with Firestore less painful. It's a free Firestore GUI",
     siteKeywords: 'Refi App, firebase, firestore, GUI Tool, DB management',
     siteUrl: 'https://refiapp.io',
     siteImagePreviewUrl: 'images/hero.jpeg',
