@@ -14,7 +14,7 @@ function Nav() {
             <h1 className="flex items-center no-underline">
               <img height="32" width="32" alt="logo" className="object-contain w-8 h-8 p-0.5 mr-2" src="/icon.png" />
               <span className="text-xl font-bold tracking-tight">
-                {process.env.siteTitle}
+                Refi App
               </span>
             </h1>
           </a>
