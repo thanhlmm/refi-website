@@ -31,7 +31,7 @@ function TestimonialSection() {
           />
           <Testimonial
             name="zeddyyz"
-            jobTitle="Reddit"
+            jobTitle="GitHub"
             image="https://avatars.githubusercontent.com/u/43095019?v=4"
             review="I use this app every single day for the last several months. My workflow has increased exponentially thanks to this amazing GUI!. "
           />
