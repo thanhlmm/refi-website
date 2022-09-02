@@ -5,7 +5,7 @@ function TestimonialSection() {
 
   return (
     <div className="pt-4">
-      <div className="w-full max-w-5xl px-2 mx-auto">
+      <div className="w-full max-w-7xl px-2 mx-auto">
         <SectionHeader text="Here's what our customers are saying" />
         {/* <p className="px-2 mt-6 text-base text-center text-gray-700 sm:text-left font-body sm:text-lg">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
