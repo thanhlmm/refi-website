@@ -18,7 +18,7 @@ function Hero() {
             <a href="https://github.com/thanhlmm/refi-app" target="_blank">
               <img src="/gh.svg" className="w-8 h-8 opacity-80" />
             </a>
-            <iframe src="https://ghbtns.com/github-btn.html?user=thanhlmm&repo=refi-app&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+            <iframe src="https://ghbtns.com/github-btn.html?user=thanhlmm&repo=refi-app&type=star&count=true" frameBorder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
             {/* <GitHubButton href="https://github.com/thanhlmm/refi-app" data-icon="octicon-star" data-show-count="true" aria-label="Star thanhlmm/refi-app on GitHub">Star</GitHubButton> */}
           </div>
         </div>
