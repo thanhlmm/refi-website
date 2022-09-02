@@ -29,6 +29,12 @@ function TestimonialSection() {
             image="https://ph-avatars.imgix.net/3892565/f60906b7-0fd1-4e2b-b691-38e401695466?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=170&h=170&fit=crop&dpr=2"
             review="THIS IS IT. THIS IS WHAT I WAITED FOR SINCE DEVELOPING WITH FIREBASE. Thank you very much!!!"
           />
+          <Testimonial
+            name="zeddyyz"
+            jobTitle="Reddit"
+            image="https://avatars.githubusercontent.com/u/43095019?v=4"
+            review="I use this app every single day for the last several months. My workflow has increased exponentially thanks to this amazing GUI!. "
+          />
         </div>
       </div>
     </div>
