@@ -58,6 +58,15 @@ function BenefitSection(props) {
           ]}
         />
       </div>
+      <div className="flex flex-col py-6 md:flex-row lg:py-12">
+        <BenefitDescription
+          fade="right"
+          heading="Dark Mode for Owl 🦉"
+          description="Easy your eyes when working with Refi App in night."
+          bulletpoints={[]}
+        />
+        <BenefitImage fade="left" imageSrc="/images/benefit-5.png" imageWidth="w-5/6 md:w-9/12" />
+      </div>
     </div>
   )
 }
